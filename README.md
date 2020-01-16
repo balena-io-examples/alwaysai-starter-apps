@@ -26,7 +26,7 @@ As of Jan 2020, there is no "easy" way of doing this. You can either deploy from
 
 1. Choose the app you want to run (be sure to update all paths accordingly if you choose another app): `hello_world`
 2. `cd` into the app directory: `cd /usr/src/alwaysai-starter-apps/hello_world`
-3. Run `aai install` command: `ALWAYSAI_HOME=/usr/src/alwaysai-starter-apps/hello_world aai app install`. This command will most likely fail on the last part (`Install python virtual environment`), but that is fine as long as the models were downloaded correctly on the step before.
+3. Run `aai install` command: `ALWAYSAI_HOME=$(pwd) aai app install`. This command will most likely fail on the last part (`Install python virtual environment`), but that is fine as long as the models were downloaded correctly on the step before.
 
 
 ### Run the app
