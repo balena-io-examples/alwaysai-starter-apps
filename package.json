@@ -1,10 +1,9 @@
 {
   "name": "balena-alwaysai",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "Run alwaysAI starter apps in balenaOS",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "keywords": [],
   "author": "Tomás Migone <tomas@balena.io>",
   "license": "Apache-2.0",
