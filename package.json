@@ -9,6 +9,6 @@
   "author": "Tomás Migone <tomas@balena.io>",
   "license": "Apache-2.0",
   "dependencies": {
-    "alwaysai": "^0.4.4"
+    "alwaysai": "^1.12.4"
   }
 }
